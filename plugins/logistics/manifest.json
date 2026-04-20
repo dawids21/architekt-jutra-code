@@ -1,0 +1,10 @@
+{
+  "name": "Logistics",
+  "version": "1.0.0",
+  "url": "http://localhost:3010",
+  "description": "Manage delivery methods and per-product shipping availability",
+  "extensionPoints": [
+    { "type": "menu.main", "label": "Logistics", "icon": "truck", "path": "/", "priority": 110 },
+    { "type": "product.detail.tabs", "label": "Shipping", "path": "/product", "priority": 60 }
+  ]
+}
