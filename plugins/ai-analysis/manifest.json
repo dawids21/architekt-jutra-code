@@ -1,0 +1,14 @@
+{
+  "name": "AI Analysis",
+  "version": "1.0.0",
+  "url": "http://localhost:3011",
+  "description": "AI-powered product analysis across description, category, and price dimensions",
+  "extensionPoints": [
+    {
+      "type": "product.detail.tabs",
+      "label": "Analysis",
+      "path": "/product-tab",
+      "priority": 60
+    }
+  ]
+}
