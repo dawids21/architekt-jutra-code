@@ -1,0 +1,9 @@
+{
+  "enabledMcpjsonServers": [
+    "neo4j-aj-kb",
+    "opik"
+  ],
+  "enabledPlugins": {
+    "opik@opik": true
+  }
+}
